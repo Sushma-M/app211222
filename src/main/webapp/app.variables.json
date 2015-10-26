@@ -1064,7 +1064,90 @@
 		"category": "wm.LiveVariable",
 		"isDefault": true,
 		"dbSystem": "HSQLDB",
-		"_id": "wm-HrdbUserData-wm.LiveVariable-1445862793220"
+		"_id": "wm-HrdbUserData-wm.LiveVariable-1445862793220",
+		"package": "com.hrdb.User",
+		"tableName": "USER",
+		"tableType": "TABLE",
+		"propertiesMap": {
+			"columns": [
+				{
+					"fieldName": "userid",
+					"type": "integer",
+					"hibernateType": "integer",
+					"fullyQualifiedType": "integer",
+					"columnName": "USERID",
+					"isPrimaryKey": true,
+					"notNull": true,
+					"length": 255,
+					"precision": 19,
+					"generator": "identity",
+					"isRelated": false,
+					"defaultValue": null
+				},
+				{
+					"fieldName": "username",
+					"type": "string",
+					"hibernateType": "string",
+					"fullyQualifiedType": "string",
+					"columnName": "USERNAME",
+					"isPrimaryKey": false,
+					"notNull": false,
+					"length": 20,
+					"precision": 19,
+					"generator": null,
+					"isRelated": false,
+					"defaultValue": null
+				},
+				{
+					"fieldName": "password",
+					"type": "string",
+					"hibernateType": "string",
+					"fullyQualifiedType": "string",
+					"columnName": "PASSWORD",
+					"isPrimaryKey": false,
+					"notNull": false,
+					"length": 20,
+					"precision": 19,
+					"generator": null,
+					"isRelated": false,
+					"defaultValue": null
+				},
+				{
+					"fieldName": "role",
+					"type": "string",
+					"hibernateType": "string",
+					"fullyQualifiedType": "string",
+					"columnName": "ROLE",
+					"isPrimaryKey": false,
+					"notNull": false,
+					"length": 20,
+					"precision": 19,
+					"generator": null,
+					"isRelated": false,
+					"defaultValue": null
+				},
+				{
+					"fieldName": "tenantid",
+					"type": "integer",
+					"hibernateType": "integer",
+					"fullyQualifiedType": "integer",
+					"columnName": "TENANTID",
+					"isPrimaryKey": false,
+					"notNull": false,
+					"length": 255,
+					"precision": 19,
+					"generator": null,
+					"isRelated": false,
+					"defaultValue": null
+				}
+			],
+			"primaryKeys": [
+				"userid"
+			],
+			"entityName": "User",
+			"fullyQualifiedName": "com.hrdb.User",
+			"tableType": "TABLE"
+		}
 	},
 	"HrdbVacationData": {
 		"type": "Vacation",
